@@ -1,0 +1,62 @@
+.div_filtro{
+/*	border:1px solid #000000;
+	font-family:"trebuchet ms";
+	font-size:12px;*/
+}
+.frm_filtro{
+	border:1px solid #000000;
+/*	font-family:"trebuchet ms";
+	font-size:12px;  */
+}
+.frm_filtro_item{
+/*  border:1px solid #000000;
+	border:1px solid #BBBCCC;
+	position:relative; */
+}
+
+.filtro{
+/*  border:1px solid #CCCAAA;
+	border:1px solid #BBBCCC;*/
+  padding:2px 2px 6px 2px;
+}
+
+.filtro_par{
+/*  border:1px solid #CCCAAA;
+	border:1px solid #BBBCCC;*/
+  background-color:#FFFFFF;
+  padding:2px 2px 6px 2px;
+}
+
+.filtro_impar{
+/*  border:1px solid #CCCAAA;
+	border:1px solid #BBBCCC;*/
+  background-color:#CCCCCC;
+  padding:2px 2px 6px 2px;
+}
+
+.filtro_campo{
+/*	border:1px solid #AAAAAA;  */
+  float:left;
+}
+.filtro_que{
+/*	border:1px solid #AAAAAA;*/
+  float:left;
+}
+.filtro_valor{
+/*	border:1px solid #AAAAAA; */
+  float:left;
+}
+.filtro_valor_item{
+/*	font-family:"trebuchet ms";
+	font-size:12px;*/
+  float:left;
+}
+.filtro_e_ou{
+	/*border:1px solid #AAAAAA;*/
+}
+
+.tb_cabecalho_form{
+  border:thin;
+  background-color: #FF9933;
+  width: 100%;
+}

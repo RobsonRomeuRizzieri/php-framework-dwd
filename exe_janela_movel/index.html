@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+  <meta name="generator" content="DWD, www.developwd.com">
+  <link href="portal_css/pagina.css" rel="stylesheet" type="text/css" />
+  <link href="portal_css/janela.css" rel="stylesheet" type="text/css" />
+  <title></title>
+  </head>
+  <SCRIPT src="../dwd_js/drag.js" type=text/javascript></SCRIPT>
+  <body style="-moz-user-select: none;">
+  <div id="top">
+     <A onmousedown=abrir('janela'); href="#">Abrir login</A>
+     <A onmousedown=abrir('janela2'); href="#">Abrir janela dois</A>
+  </div>
+<!--	 <DIV id=pos>x:<BR>y:</DIV> -->
+
+    <div class="janela_isolamento">
+		<DIV id="janela" class="janela" onmousemove="definir_janela('janela');">
+		  <DIV onmouseup="stopDrag();" onmousedown="startDrag();" id="barra" class="barra">
+		    <H2>Janela</H2>
+		    <A onmouseup=fechar('janela'); id=fechar title=Fechar href="#">x</A>
+		    <A onmouseup="esconder('conteudo','minimax','statusbar');" id=esconder title=Esconder href="#">^</A>
+		    <A onmouseup=minimax('conteudo','minimax','statusbar',false); id=minimax title=Minimizar href="#">-</A>
+		  </DIV>
+		  <DIV id="conteudo" class="conteudo">
+		    <P><IMG alt="" src="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+		    Phasellus venenatis fringilla purus. Suspendisse ultrices, leo vitae mollis
+		    eleifend, mi orci volutpat justo, in mollis erat dolor at dolor. Etiam volutpat
+		    diam. Morbi diam. Cras leo enim, imperdiet sit amet, facilisis a, ullamcorper
+		    in, nunc. Nunc elit quam, egestas sed, viverra eget, tempus nec, turpis. Morbi
+				mauris dolor, adipiscing id, facilisis eget, dapibus ac, turpis.</P>
+		    <P><IMG alt="" src="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+		    Phasellus venenatis fringilla purus. Suspendisse ultrices, leo vitae mollis
+		    eleifend, mi orci volutpat justo, in mollis erat dolor at dolor. Etiam volutpat
+		    diam. Morbi diam. Cras leo enim, imperdiet sit amet, facilisis a, ullamcorper
+		    in, nunc. Nunc elit quam, egestas sed, viverra eget, tempus nec, turpis. Morbi
+				mauris dolor, adipiscing id, facilisis eget, dapibus ac, turpis.</P>
+
+				<P>Quisque nec magna. Morbi tellus nisl, ullamcorper sed, ullamcorper in,
+				adipiscing et, tellus. Maecenas at urna. In vehicula est sed purus. Quisque
+				lobortis vestibulum nulla. Sed lacinia pellentesque massa. Nulla facilisi.
+				Vestibulum semper. Nulla vitae lacus eu mauris tincidunt luctus. Ut porttitor
+				nisi quis tortor. Vestibulum adipiscing, elit id scelerisque molestie, tortor
+				lacus ullamcorper neque, ut tristique mi purus sit amet orci.</P>
+				<P>Ut venenatis lacus ut diam. Nunc dignissim mattis risus. Nam sollicitudin
+				nunc ut mauris commodo venenatis. Fusce augue tortor, consectetuer non, cursus
+				nec, aliquam ac, magna. Praesent orci.</P>
+			</DIV>
+		  <DIV id="statusbar" class="statusbar">statusbar .:</DIV>
+    </div>
+
+    <div class="janela_isolamento">
+		<DIV id="janela2" class="janela" onmousemove="definir_janela('janela2');">
+		  <DIV onmouseup="stopDrag();" onmousedown="startDrag();" id="barra2" class="barra">
+		    <H2>Janela 2</H2>
+		    <A onmouseup=fechar('janela2'); id=fechar2 title=Fechar href="#">x</A>
+		    <A onmouseup="esconder('conteudo2','minimax2','statusbar2');" id=esconder2 title=Esconder href="#">^</A>
+		    <A onmouseup=minimax('conteudo2','minimax2','statusbar2',false); id=minimax2 title=Minimizar href="#">-</A>
+		  </DIV>
+		  <DIV id="conteudo2" class="conteudo">
+		    <P><IMG alt="" src="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+		    Phasellus venenatis fringilla purus. Suspendisse ultrices, leo vitae mollis
+		    eleifend, mi orci volutpat justo, in mollis erat dolor at dolor. Etiam volutpat
+		    diam. Morbi diam. Cras leo enim, imperdiet sit amet, facilisis a, ullamcorper
+		    in, nunc. Nunc elit quam, egestas sed, viverra eget, tempus nec, turpis. Morbi
+				mauris dolor, adipiscing id, facilisis eget, dapibus ac, turpis.</P>
+		    <P><IMG alt="" src="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+		    Phasellus venenatis fringilla purus. Suspendisse ultrices, leo vitae mollis
+		    eleifend, mi orci volutpat justo, in mollis erat dolor at dolor. Etiam volutpat
+		    diam. Morbi diam. Cras leo enim, imperdiet sit amet, facilisis a, ullamcorper
+		    in, nunc. Nunc elit quam, egestas sed, viverra eget, tempus nec, turpis. Morbi
+				mauris dolor, adipiscing id, facilisis eget, dapibus ac, turpis.</P>
+
+				<P>Quisque nec magna. Morbi tellus nisl, ullamcorper sed, ullamcorper in,
+				adipiscing et, tellus. Maecenas at urna. In vehicula est sed purus. Quisque
+				lobortis vestibulum nulla. Sed lacinia pellentesque massa. Nulla facilisi.
+				Vestibulum semper. Nulla vitae lacus eu mauris tincidunt luctus. Ut porttitor
+				nisi quis tortor. Vestibulum adipiscing, elit id scelerisque molestie, tortor
+				lacus ullamcorper neque, ut tristique mi purus sit amet orci.</P>
+				<P>Ut venenatis lacus ut diam. Nunc dignissim mattis risus. Nam sollicitudin
+				nunc ut mauris commodo venenatis. Fusce augue tortor, consectetuer non, cursus
+				nec, aliquam ac, magna. Praesent orci.</P>
+			</DIV>
+		  <DIV id="statusbar2" class="statusbar">statusbar .:</DIV>
+     </div>
+
+  </body>
+</html>

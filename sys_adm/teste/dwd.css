@@ -1,0 +1,48 @@
+body{font-family:Verdana;font-size:11px;background-color:#f1f1f1;}
+.dwd_body_cabecalho{font-family:Verdana;font-size:11px; background: url('img/fundo.jpg');}
+.xdwd_body_cabecalho{font-family:Verdana;font-size:11px; background-color:#9999FF;}
+
+h1 { font-family: Verdana; font-size: medium;}
+
+h2 { font-family: Verdana; font-size: x-small;}
+
+p { font-family: Verdana; font-size: 11px;}
+
+td { font-family: Verdana; font-size: 11px;}
+
+th { font-family: Verdana; font-size: 11px; font-weight:bold;}
+
+input { font-family: Verdana; font-size: 11px;}
+
+textarea { font-family: Verdana; font-size: 11px;}
+a { font-family: Verdana; font-size: 11px;}
+select { font-family: Verdana; font-size: 11px;}
+vlink { font-family: Verdana; font-size: 11px;}
+alink { font-family: Verdana; font-size: 11px;}
+
+.dwd_table {width: 100%;border:1px solid #000000; heigth: 100%;}
+.dwd_table_geral {width: 100%; heigth: 100%;}
+.dwd_th_center {font-family: Verdana; font-size: 11px; font-weight:bold; text-align:center;}
+.dwd_th_left {font-family: Verdana; font-size: 11px; font-weight:bold; text-align:left;}
+.dwd_th_right {font-family: Verdana; font-size: 11px; font-weight:bold; text-align:right;}
+.dwd_tr_title {background-color:#9999FF;}
+.dwd_tr_title_2 {background-color:#FFCC66;}
+.dwd_td_domingo {font-family: Verdana; font-size: 11px; background-color:#9999FF; height:40px; width: 14.3%}
+.dwd_td_semana {font-family: Verdana; font-size: 11px; background-color:#C0C0C0; height:40px; width: 14.3%}
+.dwd_td_dia_atual {font-family: Verdana; font-size: 11px; background-color:#66FF99; height:40px; width: 14.3%}
+.dwd_td_center {font-family: Verdana; font-size: 11px;  text-align:center;}
+.dwd_td_left {font-family: Verdana; font-size: 11px; text-align:left;}
+.dwd_td_right {font-family: Verdana; font-size: 11px; text-align:right;}
+.dwd_td_left_2 {font-family: Verdana; font-size: 11px; text-align:left; background-color:#CCCCCC;}
+.dwd_td_right_2 {font-family: Verdana; font-size: 11px; text-align:right;background-color:#9999FF;}
+
+
+.dwd_tr_impar {background-color:#CCCCCC;}
+.dwd_tr_par {background-color:#FFFFFF;}
+.dwd_input_p { font-family: Verdana; font-size: 11px; width:30pt;}
+.dwd_input_m { font-family: Verdana; font-size: 11px; width:60pt;}
+.dwd_input_g { font-family: Verdana; font-size: 11px; width:200pt;}
+.dwd_button {font-family: Verdana; font-size: 11px; width:60pt;}
+.dwd_td_titulo {font-family: Verdana; font-size: 11px; background-color:#FFCC66;border-width: 1px;border-color:#000000;border-style: solid;}
+
+

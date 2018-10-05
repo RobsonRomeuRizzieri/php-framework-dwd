@@ -1,0 +1,16 @@
+.frm_cadastro{
+	width: 100%;border:1px solid #000000; ;
+}
+
+.frm_cad_linha_item{
+
+}
+
+.frm_cad_coluna_descricao{
+  text-align:right;
+  background-color:#9999FF;
+}
+
+.frm_cad_coluna_campo{
+text-align:left; background-color:#CCCCCC;
+}

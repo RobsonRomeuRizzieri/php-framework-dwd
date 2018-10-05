@@ -1,0 +1,1 @@
+<?php  session_start();  include("../padrao_adm/com_arquivo_upload.php");?>

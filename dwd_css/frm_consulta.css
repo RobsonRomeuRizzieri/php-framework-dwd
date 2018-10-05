@@ -1,0 +1,44 @@
+/*Layout da tabela de consulta em geral*/
+.tb_frm_consulta{
+
+}
+.frm_con_linha_cabecalho{
+
+}
+.frm_con_caluna_cabecalho{
+
+}
+/*Define css para a descrição da tela de consulta*/
+.frm_con_descricao{
+	margin: 0 10px 0 15px;
+}
+/*Define layout da linha da descrição das colunas*/
+.tb_item_descricao_linha{
+
+}
+/*Define Layout das colunas da descricao*/
+.tb_item_descricao_coluna{
+
+}
+/*Define layout da linha dos valores das colunas*/
+.tb_item_valor_linha{
+
+}
+/*Define Layout das dos valores colunas*/
+.tb_item_valor_coluna_par{
+	background-color:#FFFFFF;
+
+}
+
+.tb_item_valor_coluna_impar{
+	background-color:#CCCCCC;
+
+}
+/*define linha da paginação*/
+.tb_linha_paginacao{
+
+}
+/*define a coluna da paginação*/
+.tb_coluna_paginacao{
+	text-align:center;
+}

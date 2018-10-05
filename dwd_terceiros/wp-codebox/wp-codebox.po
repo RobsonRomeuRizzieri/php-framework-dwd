@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-codebox\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-11-06 09:04+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: ERIC.WANG <eric.wzy@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: main.php:105
+msgid "[Copy to clipboard]"
+msgstr ""
+
+#: main.php:114
+msgid "Download"
+msgstr ""
+
+#: main.php:123
+msgid "View Code"
+msgstr ""
+
+#: option.php:9
+msgid "Configuration"
+msgstr ""
+
+#: option.php:10
+msgid "You are not Options Manager &amp; hence you cannot configure <strong>WP-Codebox</strong>. If you are admin, then please Logout &amp; Login again."
+msgstr ""
+
+#: option.php:13
+msgid "Access Denied"
+msgstr ""
+
+#: option.php:69
+msgid "WP-CodeBox-Configration"
+msgstr ""
+
+#: option.php:73
+msgid "You can configure <strong>WP-CODEBOX</strong> here. It's easy to configure highlighter style/formatting.<br />Since the plugin is developing, in the future it will support more options.<em>CSS option,Keyword display style,Auto Caps/Nocaps,Case Sensitivity etc</em>. <br /> By the way, please consider making a small donation. all donations, even the small ones, help to defray my costs and support continued development. <br />Besides, all donators get a link on the main <strong><a href=\"http://www.ericbess.com/ericblog/2008/03/03/wp-codebox/\">WP-codebox page</a></strong> and its daily 200 - 500 unique visitors."
+msgstr ""
+
+#: option.php:100
+msgid "DEFAULT OPTIONS"
+msgstr ""
+
+#: option.php:104
+msgid "Hide the Function Bar"
+msgstr ""
+
+#: option.php:105
+msgid "Just show the codebox only."
+msgstr ""
+
+#: option.php:109
+msgid "Collapse Codebox"
+msgstr ""
+
+#: option.php:110
+msgid "If you turn this option on, do no hide the function bar. The tag <em><strong>colla=\"+/-\"</strong></em> will switch the attribute in the single codebox."
+msgstr ""
+
+#: option.php:116
+msgid "Default show Line Number"
+msgstr ""
+
+#: option.php:117
+msgid "Line Number display default setting. The tag <em><strong>line=\"n\"</strong></em> will hide the single codebox."
+msgstr ""
+
+#: option.php:121
+msgid "Strict Mode"
+msgstr ""
+
+#: option.php:122
+msgid "Strict Mode means that if your language is a scripting language (such as PHP), then highlighting will only be done on the code between appropriate code delimiters (eg &lt;?php ,&gt;)."
+msgstr ""
+
+#: option.php:129
+msgid "GESHI_CAPS_UPPER"
+msgstr ""
+
+#: option.php:129
+#: option.php:130
+#: option.php:131
+msgid " selected"
+msgstr ""
+
+#: option.php:129
+msgid "CAPS_UPPER"
+msgstr ""
+
+#: option.php:130
+msgid "GESHI_CAPS_LOWER"
+msgstr ""
+
+#: option.php:130
+msgid "CAPS_LOWER"
+msgstr ""
+
+#: option.php:131
+msgid "GESHI_CAPS_NO_CHANGE"
+msgstr ""
+
+#: option.php:131
+msgid "CAPS_NO_CHANGE"
+msgstr ""
+
+#: option.php:132
+msgid "Auto-Caps/Nocaps"
+msgstr ""
+
+#: option.php:133
+msgid "capitalises or lowercases automatically certain lexics when they are styled."
+msgstr ""
+
+#: option.php:137
+msgid "Tab Width (in spaces)"
+msgstr ""
+
+#: option.php:138
+msgid "Tabs in your input will be turned into this many spaces (maximum of 20)."
+msgstr ""
+
+#: option.php:144
+msgid "All URLs for Keywords Activated"
+msgstr ""
+
+#: option.php:145
+msgid "System automatic keywords link to the API documentation inserting, this option you can enable all URL linking for keywords ."
+msgstr ""
+
+#: option.php:149
+msgid "Wrap Overflowing Text"
+msgstr ""
+
+#: option.php:150
+msgid "Lines will be wrapped when they reach the width of the screen."
+msgstr ""
+
+#: option.php:445
+msgid "Configuration Complete"
+msgstr ""
+
+#: option.php:447
+msgid "Highlight Preview!"
+msgstr ""
+
+#: option.php:449
+msgid "Update Options"
+msgstr ""
+
+#: option.php:451
+msgid "Reset"
+msgstr ""
+
+#: wp-codebox.php:62
+msgid "WP-CodeBox Options"
+msgstr ""
+
+#: wp-codebox.php:62
+msgid "WP-CodeBox"
+msgstr ""
+

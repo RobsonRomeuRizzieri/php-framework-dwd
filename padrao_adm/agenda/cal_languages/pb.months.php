@@ -1,0 +1,14 @@
+<?php
+$maand[1]="Janeiro";
+$maand[2]="Fevereiro";
+$maand[3]="Março";
+$maand[4]="Abril";
+$maand[5]="Maio";
+$maand[6]="Junho";
+$maand[7]="Julho";
+$maand[8]="Agosto";
+$maand[9]="Setembro";
+$maand[10]="Outubro";
+$maand[11]="Novembro";
+$maand[12]="Dezembro";
+?>
